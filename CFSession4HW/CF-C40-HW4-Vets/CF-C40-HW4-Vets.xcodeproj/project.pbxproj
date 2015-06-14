@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5C85CBE1B2A98E1007CEB19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C85CBD1B2A98E1007CEB19 /* AppDelegate.swift */; };
+		B5C85CC01B2A98E1007CEB19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C85CBF1B2A98E1007CEB19 /* ViewController.swift */; };
+		B5C85CC31B2A98E1007CEB19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C85CC11B2A98E1007CEB19 /* Main.storyboard */; };
+		B5C85CC51B2A98E1007CEB19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C85CC41B2A98E1007CEB19 /* Images.xcassets */; };
+		B5C85CC81B2A98E1007CEB19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C85CC61B2A98E1007CEB19 /* LaunchScreen.xib */; };
+		B5C85CD41B2A98E1007CEB19 /* CF_C40_HW4_VetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C85CD31B2A98E1007CEB19 /* CF_C40_HW4_VetsTests.swift */; };
+		B5C85CDE1B2AA1D9007CEB19 /* RacingDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C85CDD1B2AA1D9007CEB19 /* RacingDriver.swift */; };
+		B5C85CE31B2AA3B5007CEB19 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C85CE21B2AA3B5007CEB19 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5C85CCE1B2A98E1007CEB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5C85CB01B2A98E1007CEB19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C85CB71B2A98E1007CEB19;
+			remoteInfo = "CF-C40-HW4-Vets";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5C85CB81B2A98E1007CEB19 /* CF-C40-HW4-Vets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CF-C40-HW4-Vets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C85CBC1B2A98E1007CEB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C85CBD1B2A98E1007CEB19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5C85CBF1B2A98E1007CEB19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5C85CC21B2A98E1007CEB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5C85CC41B2A98E1007CEB19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5C85CC71B2A98E1007CEB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5C85CCD1B2A98E1007CEB19 /* CF-C40-HW4-VetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CF-C40-HW4-VetsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C85CD21B2A98E1007CEB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C85CD31B2A98E1007CEB19 /* CF_C40_HW4_VetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CF_C40_HW4_VetsTests.swift; sourceTree = "<group>"; };
+		B5C85CDD1B2AA1D9007CEB19 /* RacingDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RacingDriver.swift; sourceTree = "<group>"; };
+		B5C85CE21B2AA3B5007CEB19 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5C85CB51B2A98E1007CEB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C85CCA1B2A98E1007CEB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5C85CAF1B2A98E1007CEB19 = {
+			isa = PBXGroup;
+			children = (
+				B5C85CBA1B2A98E1007CEB19 /* CF-C40-HW4-Vets */,
+				B5C85CD01B2A98E1007CEB19 /* CF-C40-HW4-VetsTests */,
+				B5C85CB91B2A98E1007CEB19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5C85CB91B2A98E1007CEB19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5C85CB81B2A98E1007CEB19 /* CF-C40-HW4-Vets.app */,
+				B5C85CCD1B2A98E1007CEB19 /* CF-C40-HW4-VetsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5C85CBA1B2A98E1007CEB19 /* CF-C40-HW4-Vets */ = {
+			isa = PBXGroup;
+			children = (
+				B5C85CE11B2AA349007CEB19 /* Controller */,
+				B5C85CE01B2AA340007CEB19 /* View */,
+				B5C85CBD1B2A98E1007CEB19 /* AppDelegate.swift */,
+				B5C85CBF1B2A98E1007CEB19 /* ViewController.swift */,
+				B5C85CC11B2A98E1007CEB19 /* Main.storyboard */,
+				B5C85CDD1B2AA1D9007CEB19 /* RacingDriver.swift */,
+				B5C85CE21B2AA3B5007CEB19 /* DetailViewController.swift */,
+				B5C85CC41B2A98E1007CEB19 /* Images.xcassets */,
+				B5C85CC61B2A98E1007CEB19 /* LaunchScreen.xib */,
+				B5C85CDF1B2AA327007CEB19 /* Model */,
+				B5C85CBB1B2A98E1007CEB19 /* Supporting Files */,
+			);
+			path = "CF-C40-HW4-Vets";
+			sourceTree = "<group>";
+		};
+		B5C85CBB1B2A98E1007CEB19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5C85CBC1B2A98E1007CEB19 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5C85CD01B2A98E1007CEB19 /* CF-C40-HW4-VetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5C85CD31B2A98E1007CEB19 /* CF_C40_HW4_VetsTests.swift */,
+				B5C85CD11B2A98E1007CEB19 /* Supporting Files */,
+			);
+			path = "CF-C40-HW4-VetsTests";
+			sourceTree = "<group>";
+		};
+		B5C85CD11B2A98E1007CEB19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5C85CD21B2A98E1007CEB19 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5C85CDF1B2AA327007CEB19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = "CF-C40-HW4-Vets.xcodeproj";
+			sourceTree = SOURCE_ROOT;
+		};
+		B5C85CE01B2AA340007CEB19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B5C85CE11B2AA349007CEB19 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5C85CB71B2A98E1007CEB19 /* CF-C40-HW4-Vets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C85CD71B2A98E1007CEB19 /* Build configuration list for PBXNativeTarget "CF-C40-HW4-Vets" */;
+			buildPhases = (
+				B5C85CB41B2A98E1007CEB19 /* Sources */,
+				B5C85CB51B2A98E1007CEB19 /* Frameworks */,
+				B5C85CB61B2A98E1007CEB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CF-C40-HW4-Vets";
+			productName = "CF-C40-HW4-Vets";
+			productReference = B5C85CB81B2A98E1007CEB19 /* CF-C40-HW4-Vets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5C85CCC1B2A98E1007CEB19 /* CF-C40-HW4-VetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C85CDA1B2A98E1007CEB19 /* Build configuration list for PBXNativeTarget "CF-C40-HW4-VetsTests" */;
+			buildPhases = (
+				B5C85CC91B2A98E1007CEB19 /* Sources */,
+				B5C85CCA1B2A98E1007CEB19 /* Frameworks */,
+				B5C85CCB1B2A98E1007CEB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5C85CCF1B2A98E1007CEB19 /* PBXTargetDependency */,
+			);
+			name = "CF-C40-HW4-VetsTests";
+			productName = "CF-C40-HW4-VetsTests";
+			productReference = B5C85CCD1B2A98E1007CEB19 /* CF-C40-HW4-VetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5C85CB01B2A98E1007CEB19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Robert Vets";
+				TargetAttributes = {
+					B5C85CB71B2A98E1007CEB19 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = SH4AJNDZF3;
+					};
+					B5C85CCC1B2A98E1007CEB19 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B5C85CB71B2A98E1007CEB19;
+					};
+				};
+			};
+			buildConfigurationList = B5C85CB31B2A98E1007CEB19 /* Build configuration list for PBXProject "CF-C40-HW4-Vets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5C85CAF1B2A98E1007CEB19;
+			productRefGroup = B5C85CB91B2A98E1007CEB19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5C85CB71B2A98E1007CEB19 /* CF-C40-HW4-Vets */,
+				B5C85CCC1B2A98E1007CEB19 /* CF-C40-HW4-VetsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5C85CB61B2A98E1007CEB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C85CC31B2A98E1007CEB19 /* Main.storyboard in Resources */,
+				B5C85CC81B2A98E1007CEB19 /* LaunchScreen.xib in Resources */,
+				B5C85CC51B2A98E1007CEB19 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C85CCB1B2A98E1007CEB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5C85CB41B2A98E1007CEB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C85CC01B2A98E1007CEB19 /* ViewController.swift in Sources */,
+				B5C85CBE1B2A98E1007CEB19 /* AppDelegate.swift in Sources */,
+				B5C85CDE1B2AA1D9007CEB19 /* RacingDriver.swift in Sources */,
+				B5C85CE31B2AA3B5007CEB19 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C85CC91B2A98E1007CEB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C85CD41B2A98E1007CEB19 /* CF_C40_HW4_VetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5C85CCF1B2A98E1007CEB19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C85CB71B2A98E1007CEB19 /* CF-C40-HW4-Vets */;
+			targetProxy = B5C85CCE1B2A98E1007CEB19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5C85CC11B2A98E1007CEB19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C85CC21B2A98E1007CEB19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5C85CC61B2A98E1007CEB19 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C85CC71B2A98E1007CEB19 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5C85CD51B2A98E1007CEB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5C85CD61B2A98E1007CEB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5C85CD81B2A98E1007CEB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "CF-C40-HW4-Vets/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B5C85CD91B2A98E1007CEB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "CF-C40-HW4-Vets/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		B5C85CDB1B2A98E1007CEB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CF-C40-HW4-VetsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CF-C40-HW4-Vets.app/CF-C40-HW4-Vets";
+			};
+			name = Debug;
+		};
+		B5C85CDC1B2A98E1007CEB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CF-C40-HW4-VetsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CF-C40-HW4-Vets.app/CF-C40-HW4-Vets";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5C85CB31B2A98E1007CEB19 /* Build configuration list for PBXProject "CF-C40-HW4-Vets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C85CD51B2A98E1007CEB19 /* Debug */,
+				B5C85CD61B2A98E1007CEB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C85CD71B2A98E1007CEB19 /* Build configuration list for PBXNativeTarget "CF-C40-HW4-Vets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C85CD81B2A98E1007CEB19 /* Debug */,
+				B5C85CD91B2A98E1007CEB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5C85CDA1B2A98E1007CEB19 /* Build configuration list for PBXNativeTarget "CF-C40-HW4-VetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C85CDB1B2A98E1007CEB19 /* Debug */,
+				B5C85CDC1B2A98E1007CEB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5C85CB01B2A98E1007CEB19 /* Project object */;
+}
