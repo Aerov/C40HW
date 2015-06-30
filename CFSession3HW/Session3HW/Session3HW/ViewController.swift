@@ -94,6 +94,6 @@ class ViewController: UIViewController, UITableViewDataSource {
     } else {
       return "Groovy Race Tracks"
     }
-  }sel
+  }
 }
 

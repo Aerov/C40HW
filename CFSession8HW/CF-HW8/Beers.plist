@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<array>
+	<dict>
+		<key>brewer</key>
+		<string>Fremont Brewing</string>
+		<key>type</key>
+		<string>pale ale</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>white</string>
+		<key>brewer</key>
+		<string>Hoegaarden</string>
+	</dict>
+	<dict>
+		<key>brewer</key>
+		<string>Grolsch</string>
+		<key>type</key>
+		<string>pilsner</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>IPA</string>
+		<key>brewer</key>
+		<string>Boundary Bay</string>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>B-bomb</string>
+		<key>brewer</key>
+		<string>Fremont Brewing</string>
+	</dict>
+</array>
 </plist>

@@ -38,7 +38,7 @@
 		B5C85CCD1B2A98E1007CEB19 /* CF-C40-HW4-VetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CF-C40-HW4-VetsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C85CD21B2A98E1007CEB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5C85CD31B2A98E1007CEB19 /* CF_C40_HW4_VetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CF_C40_HW4_VetsTests.swift; sourceTree = "<group>"; };
-		B5C85CDD1B2AA1D9007CEB19 /* RacingDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RacingDriver.swift; sourceTree = "<group>"; };
+		B5C85CDD1B2AA1D9007CEB19 /* RacingDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RacingDriver.swift; path = "../CF-C40-HW4-Vets/RacingDriver.swift"; sourceTree = "<group>"; };
 		B5C85CE21B2AA3B5007CEB19 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,10 +84,6 @@
 				B5C85CE11B2AA349007CEB19 /* Controller */,
 				B5C85CE01B2AA340007CEB19 /* View */,
 				B5C85CBD1B2A98E1007CEB19 /* AppDelegate.swift */,
-				B5C85CBF1B2A98E1007CEB19 /* ViewController.swift */,
-				B5C85CC11B2A98E1007CEB19 /* Main.storyboard */,
-				B5C85CDD1B2AA1D9007CEB19 /* RacingDriver.swift */,
-				B5C85CE21B2AA3B5007CEB19 /* DetailViewController.swift */,
 				B5C85CC41B2A98E1007CEB19 /* Images.xcassets */,
 				B5C85CC61B2A98E1007CEB19 /* LaunchScreen.xib */,
 				B5C85CDF1B2AA327007CEB19 /* Model */,
@@ -124,6 +120,7 @@
 		B5C85CDF1B2AA327007CEB19 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B5C85CDD1B2AA1D9007CEB19 /* RacingDriver.swift */,
 			);
 			name = Model;
 			path = "CF-C40-HW4-Vets.xcodeproj";
@@ -132,6 +129,7 @@
 		B5C85CE01B2AA340007CEB19 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B5C85CC11B2A98E1007CEB19 /* Main.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -139,6 +137,8 @@
 		B5C85CE11B2AA349007CEB19 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B5C85CE21B2AA3B5007CEB19 /* DetailViewController.swift */,
+				B5C85CBF1B2A98E1007CEB19 /* ViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -449,6 +449,7 @@
 				B5C85CD91B2A98E1007CEB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5C85CDA1B2A98E1007CEB19 /* Build configuration list for PBXNativeTarget "CF-C40-HW4-VetsTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +458,7 @@
 				B5C85CDC1B2A98E1007CEB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

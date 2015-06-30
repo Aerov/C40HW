@@ -9,23 +9,29 @@
 import UIKit
 
 
-class DetailViewController: UIViewController {
+class DetailViewController: UIViewController, UITextFieldDelegate {
   
+
   @IBOutlet weak var firstNameLabel: UILabel!
-  
   @IBOutlet weak var lastNameLabel: UILabel!
   
   var selectedDriver : RacingDriver!
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+      super.viewDidLoad()
       self.firstNameLabel.text = self.selectedDriver.firstName
       self.lastNameLabel.text = self.selectedDriver.lastName
       
 
+
         // Do any additional setup after loading the view.
     }
 
+  func  textFieldShouldClear(textField: UITextField) -> Bool {
+    textField.resignFirstResponder()
+    return true
+  }
+  
 
 
 }

@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B58406D81B33B39400D9E68D /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58406D71B33B39400D9E68D /* DetailedViewController.swift */; };
 		B5DF713D1B33A8C500AA4F70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF713C1B33A8C500AA4F70 /* AppDelegate.swift */; };
 		B5DF713F1B33A8C500AA4F70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF713E1B33A8C500AA4F70 /* ViewController.swift */; };
 		B5DF71421B33A8C500AA4F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DF71401B33A8C500AA4F70 /* Main.storyboard */; };
 		B5DF71441B33A8C500AA4F70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DF71431B33A8C500AA4F70 /* Images.xcassets */; };
 		B5DF71471B33A8C500AA4F70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DF71451B33A8C500AA4F70 /* LaunchScreen.xib */; };
 		B5DF71531B33A8C500AA4F70 /* CF_C40_HW5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF71521B33A8C500AA4F70 /* CF_C40_HW5Tests.swift */; };
+		B5DF71621B33AB1B00AA4F70 /* RaceTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF71611B33AB1B00AA4F70 /* RaceTrack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B58406D71B33B39400D9E68D /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 		B5DF71371B33A8C500AA4F70 /* CF-C40-HW5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CF-C40-HW5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DF713B1B33A8C500AA4F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5DF713C1B33A8C500AA4F70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		B5DF714C1B33A8C500AA4F70 /* CF-C40-HW5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CF-C40-HW5Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DF71511B33A8C500AA4F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5DF71521B33A8C500AA4F70 /* CF_C40_HW5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CF_C40_HW5Tests.swift; sourceTree = "<group>"; };
+		B5DF71611B33AB1B00AA4F70 /* RaceTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceTrack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,9 @@
 		B5DF71391B33A8C500AA4F70 /* CF-C40-HW5 */ = {
 			isa = PBXGroup;
 			children = (
+				B5DF71631B33AB2300AA4F70 /* Controllers */,
 				B5DF713C1B33A8C500AA4F70 /* AppDelegate.swift */,
-				B5DF713E1B33A8C500AA4F70 /* ViewController.swift */,
+				B5DF71601B33AAEA00AA4F70 /* Models */,
 				B5DF71401B33A8C500AA4F70 /* Main.storyboard */,
 				B5DF71431B33A8C500AA4F70 /* Images.xcassets */,
 				B5DF71451B33A8C500AA4F70 /* LaunchScreen.xib */,
@@ -110,6 +115,23 @@
 				B5DF71511B33A8C500AA4F70 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5DF71601B33AAEA00AA4F70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF71611B33AB1B00AA4F70 /* RaceTrack.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B5DF71631B33AB2300AA4F70 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF713E1B33A8C500AA4F70 /* ViewController.swift */,
+				B58406D71B33B39400D9E68D /* DetailedViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +235,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5DF713F1B33A8C500AA4F70 /* ViewController.swift in Sources */,
+				B5DF71621B33AB1B00AA4F70 /* RaceTrack.swift in Sources */,
+				B58406D81B33B39400D9E68D /* DetailedViewController.swift in Sources */,
 				B5DF713D1B33A8C500AA4F70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +433,7 @@
 				B5DF71581B33A8C500AA4F70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5DF71591B33A8C500AA4F70 /* Build configuration list for PBXNativeTarget "CF-C40-HW5Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +442,7 @@
 				B5DF715B1B33A8C500AA4F70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,15 +10,23 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
+  @IBOutlet weak var cityNameLabel: UILabel!
+  
+  @IBOutlet weak var countryNameLabel: UILabel!
 
-    override func setSelected(selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
+  @IBOutlet weak var cityImageView: UIImageView!
+  
+  override func awakeFromNib() {
+    super.awakeFromNib()
+      // Initialization code
+  }
+
+  override func setSelected(selected: Bool,animated: Bool) {
+    super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
-    }
+  }
 
 }
+
+

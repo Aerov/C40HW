@@ -6,4 +6,19 @@
 //  Copyright (c) 2015 Robert Vets. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class City {
+
+  var cityName: String
+  var countryName: String
+  var image: UIImage?
+  
+  init (city: String, country: String){
+    
+    self.cityName = city
+    self.countryName = country
+    
+  }
+  
+}

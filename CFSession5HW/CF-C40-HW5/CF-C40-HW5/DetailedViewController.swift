@@ -8,28 +8,46 @@
 
 import UIKit
 
-class DetailedViewController: UIViewController {
+class DetailedViewController: UIViewController, UITextFieldDelegate {
 
+  @IBOutlet weak var nameLabel: UILabel!
+  @IBOutlet weak var locationText: UITextField!
+  @IBOutlet weak var trackName: UITextField!
+  
+  var selectedTrack : RaceTrack!
+  
+  
     override func viewDidLoad() {
-        super.viewDidLoad()
+      super.viewDidLoad()
+      
+      self.nameLabel.text = self.selectedTrack.trackName
+      self.locationText.text = self.selectedTrack.trackLocation
+      self.trackName.text = self.selectedTrack.trackName
+      
+      self.trackName.delegate = self
+      self.locationText.delegate = self
 
-        // Do any additional setup after loading the view.
+      
+      self.locationText.tag = 0
+      self.trackName.tag = 1
+      
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+
+  func textFieldShouldReturn(textField: UITextField) -> Bool {
     
+    textField.resignFirstResponder()
+    return false
+  }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+  func textFieldDidEndEditing(textField: UITextField) {
+    if textField.tag == 0 {
+      self.selectedTrack.trackLocation = textField.text
+    } else {
+      self.selectedTrack.trackName = textField.text
     }
-    */
+
+  }
+
 
 }

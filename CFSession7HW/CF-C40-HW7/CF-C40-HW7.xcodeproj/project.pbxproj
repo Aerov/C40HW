@@ -13,6 +13,12 @@
 		B51432171B3926F500B51DAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51432161B3926F500B51DAB /* Images.xcassets */; };
 		B514321A1B3926F500B51DAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51432181B3926F500B51DAB /* LaunchScreen.xib */; };
 		B51432261B3926F500B51DAB /* CF_C40_HW7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51432251B3926F500B51DAB /* CF_C40_HW7Tests.swift */; };
+		B51432301B39273400B51DAB /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = B514322F1B39273400B51DAB /* Cities.plist */; };
+		B5C5B7531B3A381100E7857B /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5B7521B3A381100E7857B /* City.swift */; };
+		B5C5B7551B3A39CD00E7857B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5B7541B3A39CD00E7857B /* DetailViewController.swift */; };
+		B5C5B7591B3A54CA00E7857B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5B7581B3A54CA00E7857B /* TableViewCell.swift */; };
+		B5C5B75B1B3A562E00E7857B /* Space_Needle_Downtown_and_Mt_Rainier-Seattle2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5C5B75A1B3A562E00E7857B /* Space_Needle_Downtown_and_Mt_Rainier-Seattle2.jpg */; };
+		B5C5B75D1B3A6C0C00E7857B /* Getting Focused, New York City.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5C5B75C1B3A6C0C00E7857B /* Getting Focused, New York City.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		B514321F1B3926F500B51DAB /* CF-C40-HW7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CF-C40-HW7Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51432241B3926F500B51DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B51432251B3926F500B51DAB /* CF_C40_HW7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CF_C40_HW7Tests.swift; sourceTree = "<group>"; };
+		B514322F1B39273400B51DAB /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Cities.plist; path = ../Cities.plist; sourceTree = "<group>"; };
+		B5C5B7521B3A381100E7857B /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		B5C5B7541B3A39CD00E7857B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B5C5B7581B3A54CA00E7857B /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B5C5B75A1B3A562E00E7857B /* Space_Needle_Downtown_and_Mt_Rainier-Seattle2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Space_Needle_Downtown_and_Mt_Rainier-Seattle2.jpg"; sourceTree = "<group>"; };
+		B5C5B75C1B3A6C0C00E7857B /* Getting Focused, New York City.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Getting Focused, New York City.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +89,10 @@
 		B514320C1B3926F500B51DAB /* CF-C40-HW7 */ = {
 			isa = PBXGroup;
 			children = (
+				B51432331B39279E00B51DAB /* Controller */,
+				B51432321B39279200B51DAB /* View */,
+				B51432311B39278900B51DAB /* Model */,
 				B514320F1B3926F500B51DAB /* AppDelegate.swift */,
-				B51432111B3926F500B51DAB /* ViewController.swift */,
-				B51432131B3926F500B51DAB /* Main.storyboard */,
 				B51432161B3926F500B51DAB /* Images.xcassets */,
 				B51432181B3926F500B51DAB /* LaunchScreen.xib */,
 				B514320D1B3926F500B51DAB /* Supporting Files */,
@@ -90,6 +103,9 @@
 		B514320D1B3926F500B51DAB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B514322F1B39273400B51DAB /* Cities.plist */,
+				B5C5B75C1B3A6C0C00E7857B /* Getting Focused, New York City.jpg */,
+				B5C5B75A1B3A562E00E7857B /* Space_Needle_Downtown_and_Mt_Rainier-Seattle2.jpg */,
 				B514320E1B3926F500B51DAB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +126,32 @@
 				B51432241B3926F500B51DAB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B51432311B39278900B51DAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5C5B7521B3A381100E7857B /* City.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B51432321B39279200B51DAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B51432131B3926F500B51DAB /* Main.storyboard */,
+				B5C5B7581B3A54CA00E7857B /* TableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B51432331B39279E00B51DAB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B51432111B3926F500B51DAB /* ViewController.swift */,
+				B5C5B7541B3A39CD00E7857B /* DetailViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +203,7 @@
 				TargetAttributes = {
 					B51432091B3926F500B51DAB = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = SH4AJNDZF3;
 					};
 					B514321E1B3926F500B51DAB = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -192,8 +235,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C5B75D1B3A6C0C00E7857B /* Getting Focused, New York City.jpg in Resources */,
 				B51432151B3926F500B51DAB /* Main.storyboard in Resources */,
 				B514321A1B3926F500B51DAB /* LaunchScreen.xib in Resources */,
+				B51432301B39273400B51DAB /* Cities.plist in Resources */,
+				B5C5B75B1B3A562E00E7857B /* Space_Needle_Downtown_and_Mt_Rainier-Seattle2.jpg in Resources */,
 				B51432171B3926F500B51DAB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +260,9 @@
 			files = (
 				B51432121B3926F500B51DAB /* ViewController.swift in Sources */,
 				B51432101B3926F500B51DAB /* AppDelegate.swift in Sources */,
+				B5C5B7591B3A54CA00E7857B /* TableViewCell.swift in Sources */,
+				B5C5B7531B3A381100E7857B /* City.swift in Sources */,
+				B5C5B7551B3A39CD00E7857B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +389,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "CF-C40-HW7/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -350,9 +402,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "CF-C40-HW7/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -409,6 +464,7 @@
 				B514322B1B3926F500B51DAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B514322C1B3926F500B51DAB /* Build configuration list for PBXNativeTarget "CF-C40-HW7Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +473,7 @@
 				B514322E1B3926F500B51DAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

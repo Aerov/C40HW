@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5044BCD1B3F553E00662F48 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5044BCC1B3F553E00662F48 /* DetailViewController.swift */; };
+		B520987A1B3F3168001F1593 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52098791B3F3168001F1593 /* Beer.swift */; };
+		B520987E1B3F334A001F1593 /* BeerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B520987D1B3F334A001F1593 /* BeerCell.swift */; };
+		B52098821B3F3F8E001F1593 /* Beers.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52098811B3F3F8E001F1593 /* Beers.plist */; };
+		B52098851B3F4839001F1593 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B52098841B3F4839001F1593 /* 6.jpg */; };
+		B55824EE1B40E1440052BA57 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B55824ED1B40E1440052BA57 /* images.jpg */; };
 		B5AF52471B3F0B9800CA092A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AF52461B3F0B9800CA092A /* AppDelegate.swift */; };
 		B5AF52491B3F0B9800CA092A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AF52481B3F0B9800CA092A /* ViewController.swift */; };
 		B5AF524C1B3F0B9800CA092A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AF524A1B3F0B9800CA092A /* Main.storyboard */; };
@@ -26,10 +32,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5044BCC1B3F553E00662F48 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B52098791B3F3168001F1593 /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		B520987D1B3F334A001F1593 /* BeerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerCell.swift; sourceTree = "<group>"; };
+		B52098811B3F3F8E001F1593 /* Beers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Beers.plist; path = ../Beers.plist; sourceTree = "<group>"; };
+		B52098841B3F4839001F1593 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		B55824ED1B40E1440052BA57 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 		B5AF52411B3F0B9800CA092A /* CF-HW8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CF-HW8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5AF52451B3F0B9800CA092A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5AF52461B3F0B9800CA092A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5AF52481B3F0B9800CA092A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5AF52481B3F0B9800CA092A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "CF-HW8/ViewController.swift"; sourceTree = "<group>"; };
 		B5AF524B1B3F0B9800CA092A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5AF524D1B3F0B9800CA092A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5AF52501B3F0B9800CA092A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -56,6 +68,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B52098761B3F2A73001F1593 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5AF524A1B3F0B9800CA092A /* Main.storyboard */,
+				B520987D1B3F334A001F1593 /* BeerCell.swift */,
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B52098771B3F2A7F001F1593 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B5AF52481B3F0B9800CA092A /* ViewController.swift */,
+				B5044BCC1B3F553E00662F48 /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B52098781B3F2A8E001F1593 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B52098791B3F3168001F1593 /* Beer.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		B5AF52381B3F0B9800CA092A = {
 			isa = PBXGroup;
 			children = (
@@ -77,9 +118,10 @@
 		B5AF52431B3F0B9800CA092A /* CF-HW8 */ = {
 			isa = PBXGroup;
 			children = (
+				B52098771B3F2A7F001F1593 /* Controllers */,
+				B52098761B3F2A73001F1593 /* Views */,
+				B52098781B3F2A8E001F1593 /* Model */,
 				B5AF52461B3F0B9800CA092A /* AppDelegate.swift */,
-				B5AF52481B3F0B9800CA092A /* ViewController.swift */,
-				B5AF524A1B3F0B9800CA092A /* Main.storyboard */,
 				B5AF524D1B3F0B9800CA092A /* Images.xcassets */,
 				B5AF524F1B3F0B9800CA092A /* LaunchScreen.xib */,
 				B5AF52441B3F0B9800CA092A /* Supporting Files */,
@@ -90,6 +132,9 @@
 		B5AF52441B3F0B9800CA092A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B55824ED1B40E1440052BA57 /* images.jpg */,
+				B52098811B3F3F8E001F1593 /* Beers.plist */,
+				B52098841B3F4839001F1593 /* 6.jpg */,
 				B5AF52451B3F0B9800CA092A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +206,7 @@
 				TargetAttributes = {
 					B5AF52401B3F0B9800CA092A = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = SH4AJNDZF3;
 					};
 					B5AF52551B3F0B9800CA092A = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -194,7 +240,10 @@
 			files = (
 				B5AF524C1B3F0B9800CA092A /* Main.storyboard in Resources */,
 				B5AF52511B3F0B9800CA092A /* LaunchScreen.xib in Resources */,
+				B52098821B3F3F8E001F1593 /* Beers.plist in Resources */,
 				B5AF524E1B3F0B9800CA092A /* Images.xcassets in Resources */,
+				B55824EE1B40E1440052BA57 /* images.jpg in Resources */,
+				B52098851B3F4839001F1593 /* 6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B520987E1B3F334A001F1593 /* BeerCell.swift in Sources */,
 				B5AF52491B3F0B9800CA092A /* ViewController.swift in Sources */,
+				B5044BCD1B3F553E00662F48 /* DetailViewController.swift in Sources */,
+				B520987A1B3F3168001F1593 /* Beer.swift in Sources */,
 				B5AF52471B3F0B9800CA092A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +294,7 @@
 				B5AF524B1B3F0B9800CA092A /* Base */,
 			);
 			name = Main.storyboard;
+			path = "CF-HW8";
 			sourceTree = "<group>";
 		};
 		B5AF524F1B3F0B9800CA092A /* LaunchScreen.xib */ = {
@@ -340,9 +393,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "CF-HW8/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -350,9 +406,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "CF-HW8/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -409,6 +468,7 @@
 				B5AF52621B3F0B9800CA092A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5AF52631B3F0B9800CA092A /* Build configuration list for PBXNativeTarget "CF-HW8Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +477,7 @@
 				B5AF52651B3F0B9800CA092A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

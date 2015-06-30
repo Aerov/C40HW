@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+class RaceTrack {
+  
+  var trackName: String
+  var trackLocation: String
+  
+  init (trackName: String, trackLocation: String){
+    self.trackName = trackName
+    self.trackLocation = trackLocation
+  }
+
+}
+
