@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5DF713D1B33A8C500AA4F70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF713C1B33A8C500AA4F70 /* AppDelegate.swift */; };
+		B5DF713F1B33A8C500AA4F70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF713E1B33A8C500AA4F70 /* ViewController.swift */; };
+		B5DF71421B33A8C500AA4F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DF71401B33A8C500AA4F70 /* Main.storyboard */; };
+		B5DF71441B33A8C500AA4F70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DF71431B33A8C500AA4F70 /* Images.xcassets */; };
+		B5DF71471B33A8C500AA4F70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DF71451B33A8C500AA4F70 /* LaunchScreen.xib */; };
+		B5DF71531B33A8C500AA4F70 /* CF_C40_HW5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF71521B33A8C500AA4F70 /* CF_C40_HW5Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5DF714D1B33A8C500AA4F70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DF712F1B33A8C500AA4F70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5DF71361B33A8C500AA4F70;
+			remoteInfo = "CF-C40-HW5";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5DF71371B33A8C500AA4F70 /* CF-C40-HW5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CF-C40-HW5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DF713B1B33A8C500AA4F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5DF713C1B33A8C500AA4F70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5DF713E1B33A8C500AA4F70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5DF71411B33A8C500AA4F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5DF71431B33A8C500AA4F70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5DF71461B33A8C500AA4F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5DF714C1B33A8C500AA4F70 /* CF-C40-HW5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CF-C40-HW5Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DF71511B33A8C500AA4F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5DF71521B33A8C500AA4F70 /* CF_C40_HW5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CF_C40_HW5Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5DF71341B33A8C500AA4F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DF71491B33A8C500AA4F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5DF712E1B33A8C500AA4F70 = {
+			isa = PBXGroup;
+			children = (
+				B5DF71391B33A8C500AA4F70 /* CF-C40-HW5 */,
+				B5DF714F1B33A8C500AA4F70 /* CF-C40-HW5Tests */,
+				B5DF71381B33A8C500AA4F70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5DF71381B33A8C500AA4F70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF71371B33A8C500AA4F70 /* CF-C40-HW5.app */,
+				B5DF714C1B33A8C500AA4F70 /* CF-C40-HW5Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5DF71391B33A8C500AA4F70 /* CF-C40-HW5 */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF713C1B33A8C500AA4F70 /* AppDelegate.swift */,
+				B5DF713E1B33A8C500AA4F70 /* ViewController.swift */,
+				B5DF71401B33A8C500AA4F70 /* Main.storyboard */,
+				B5DF71431B33A8C500AA4F70 /* Images.xcassets */,
+				B5DF71451B33A8C500AA4F70 /* LaunchScreen.xib */,
+				B5DF713A1B33A8C500AA4F70 /* Supporting Files */,
+			);
+			path = "CF-C40-HW5";
+			sourceTree = "<group>";
+		};
+		B5DF713A1B33A8C500AA4F70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF713B1B33A8C500AA4F70 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5DF714F1B33A8C500AA4F70 /* CF-C40-HW5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF71521B33A8C500AA4F70 /* CF_C40_HW5Tests.swift */,
+				B5DF71501B33A8C500AA4F70 /* Supporting Files */,
+			);
+			path = "CF-C40-HW5Tests";
+			sourceTree = "<group>";
+		};
+		B5DF71501B33A8C500AA4F70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF71511B33A8C500AA4F70 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5DF71361B33A8C500AA4F70 /* CF-C40-HW5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DF71561B33A8C500AA4F70 /* Build configuration list for PBXNativeTarget "CF-C40-HW5" */;
+			buildPhases = (
+				B5DF71331B33A8C500AA4F70 /* Sources */,
+				B5DF71341B33A8C500AA4F70 /* Frameworks */,
+				B5DF71351B33A8C500AA4F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CF-C40-HW5";
+			productName = "CF-C40-HW5";
+			productReference = B5DF71371B33A8C500AA4F70 /* CF-C40-HW5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5DF714B1B33A8C500AA4F70 /* CF-C40-HW5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DF71591B33A8C500AA4F70 /* Build configuration list for PBXNativeTarget "CF-C40-HW5Tests" */;
+			buildPhases = (
+				B5DF71481B33A8C500AA4F70 /* Sources */,
+				B5DF71491B33A8C500AA4F70 /* Frameworks */,
+				B5DF714A1B33A8C500AA4F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5DF714E1B33A8C500AA4F70 /* PBXTargetDependency */,
+			);
+			name = "CF-C40-HW5Tests";
+			productName = "CF-C40-HW5Tests";
+			productReference = B5DF714C1B33A8C500AA4F70 /* CF-C40-HW5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5DF712F1B33A8C500AA4F70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Robert Vets";
+				TargetAttributes = {
+					B5DF71361B33A8C500AA4F70 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B5DF714B1B33A8C500AA4F70 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B5DF71361B33A8C500AA4F70;
+					};
+				};
+			};
+			buildConfigurationList = B5DF71321B33A8C500AA4F70 /* Build configuration list for PBXProject "CF-C40-HW5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5DF712E1B33A8C500AA4F70;
+			productRefGroup = B5DF71381B33A8C500AA4F70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5DF71361B33A8C500AA4F70 /* CF-C40-HW5 */,
+				B5DF714B1B33A8C500AA4F70 /* CF-C40-HW5Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5DF71351B33A8C500AA4F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF71421B33A8C500AA4F70 /* Main.storyboard in Resources */,
+				B5DF71471B33A8C500AA4F70 /* LaunchScreen.xib in Resources */,
+				B5DF71441B33A8C500AA4F70 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DF714A1B33A8C500AA4F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5DF71331B33A8C500AA4F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF713F1B33A8C500AA4F70 /* ViewController.swift in Sources */,
+				B5DF713D1B33A8C500AA4F70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DF71481B33A8C500AA4F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF71531B33A8C500AA4F70 /* CF_C40_HW5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5DF714E1B33A8C500AA4F70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5DF71361B33A8C500AA4F70 /* CF-C40-HW5 */;
+			targetProxy = B5DF714D1B33A8C500AA4F70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5DF71401B33A8C500AA4F70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DF71411B33A8C500AA4F70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5DF71451B33A8C500AA4F70 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DF71461B33A8C500AA4F70 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5DF71541B33A8C500AA4F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5DF71551B33A8C500AA4F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5DF71571B33A8C500AA4F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CF-C40-HW5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5DF71581B33A8C500AA4F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CF-C40-HW5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5DF715A1B33A8C500AA4F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CF-C40-HW5Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CF-C40-HW5.app/CF-C40-HW5";
+			};
+			name = Debug;
+		};
+		B5DF715B1B33A8C500AA4F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CF-C40-HW5Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CF-C40-HW5.app/CF-C40-HW5";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5DF71321B33A8C500AA4F70 /* Build configuration list for PBXProject "CF-C40-HW5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DF71541B33A8C500AA4F70 /* Debug */,
+				B5DF71551B33A8C500AA4F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DF71561B33A8C500AA4F70 /* Build configuration list for PBXNativeTarget "CF-C40-HW5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DF71571B33A8C500AA4F70 /* Debug */,
+				B5DF71581B33A8C500AA4F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5DF71591B33A8C500AA4F70 /* Build configuration list for PBXNativeTarget "CF-C40-HW5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DF715A1B33A8C500AA4F70 /* Debug */,
+				B5DF715B1B33A8C500AA4F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5DF712F1B33A8C500AA4F70 /* Project object */;
+}
